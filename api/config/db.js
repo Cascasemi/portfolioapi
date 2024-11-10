@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connection = mongoose.createConnection('mongodb+srv://eyarko:%40password123@lawsonscluster.l1vqepq.mongodb.net/eyarko').on('open', ()=>{
+const connection = mongoose.createConnection('mongodb+srv://kwameroland5:j3DfVtoZiavTW3oM@cluster0.wgk2o.mongodb.net/cluster0').on('open', ()=>{
     console.log("Database connected successfully");
 }).on('error', ()=>{
     console.log("Error connecting to database");
