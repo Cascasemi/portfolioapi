@@ -10,7 +10,7 @@ app.use(helmet());
 
 // CORS options
 const corsOptions = {
-  origin: ['https://eyarko.vercel.app', 'http://localhost:5173'],
+  origin: ['https://portfolio-frontend-seven-sigma.vercel.app/', 'http://localhost:5173'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 };
